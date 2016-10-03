@@ -1,5 +1,6 @@
+![cover](imgs/cover01.png)
 # Guia de Bolso sobre CSS Animations
-
+Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis codepen.
 ## Mapa
 
 * [Introdução](#introdução)
@@ -23,6 +24,4 @@ Transições podem ser usadas para adicionar uma transição de tempo em uma mod
 		transition: <property> <duration>;
 	}
 
-Exemplo:
 
-http://codepen.io/daliannyvieira/pen/reXJxo
