@@ -1,6 +1,6 @@
 ![cover](imgs/cover01.png)
 # Guia de Bolso sobre CSS Animations
-Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis codepen.
+Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.
 ## Mapa
 
 * [Introdução](#introdução)
