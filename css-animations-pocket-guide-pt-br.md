@@ -17,7 +17,7 @@ Para aproveitar melhor esse guia, é recomendado que se tenha um conhecimento pr
 
 ##Transitions
 
-Transições podem ser usadas para modificar elementos em um período de tempo. Adicionamos uma transição para dar exatamente uma transição de tempo entre uma modificação em um determinado elemento. Adicionamos ao elemento a seguinte propriedade:
+Transições podem ser usadas para adicionar uma transição de tempo em uma modificação por um determinado elemento. Adicionamos ao elemento a seguinte propriedade:
 
 	.elemento {
 		transition: <property> <duration>;
