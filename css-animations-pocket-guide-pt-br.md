@@ -34,7 +34,7 @@ Transições podem ser usadas para adicionar uma transição de tempo em uma mod
 ![Transform rotate](images/04.gif)
 ###Transform translate
 ![Transform translate](images/05.gif)
-##Keyframes Animation
+##Keyframes Animations
 ![keyframes-animations](images/06.gif)
 
 
