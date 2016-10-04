@@ -73,7 +73,12 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 ##Transforms
 
 Podemos adicionar transformações ao elementos, fazendo-os crescerem, girarem, ou se deslocarem, em 2D e também 3D. Transformações que podem ser usadas: scale, rotate, translate, e skew.
+
 ###Transform scale
+
+Scale pode fazer com que um elemento cresça ou diminua sua dimensão. Exemplo: para fazer com que um elemento cresça em uma proporção equivalente à metade de seu tamanho usamos scale(1.5); Se quisessemos que ele crescesse o dobro do seu tamanho adicionaríamos scale(2); e assim por diante.
+
+Se adicionadas como hover, por exemplo, pode ser interessante também continuar combinando transformações com transições, fazendo com que as trasnformações sejam mais agradáveis de se ver. Podemos usar all para manter a mesma duração por segundos em uma transição. Exemplo:
 
 	/* Adicionando modificações */
 	.elemento:hover {
@@ -89,15 +94,20 @@ Podemos adicionar transformações ao elementos, fazendo-os crescerem, girarem, 
 
 ###Transform rotate
 
+Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos fazer com que ele gire usando deg ou turn como valor, 1turn equivale a 360graus.
+
 	.elemento {
   		/* Adicionando transições */
   		transition: all 1s;
 	}
 	/* Adicionando modificações */
 	.elemento:hover {
+		/* Alterando a cor */
  		background-color: green;
+		/* Diminuindo a altura e largura */
   		height: 70px;
   		width: 70px;
+		/* Girando uma volta completa */
   		transform: rotate(360deg);
 	}
 ![Transform rotate](images/04.gif)
