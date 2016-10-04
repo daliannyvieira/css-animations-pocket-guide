@@ -1,4 +1,4 @@
-![cover](imgs/cover01.png)
+![cover](images/cover01.png)
 
 Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.
 ## Mapa
@@ -23,5 +23,17 @@ Transições podem ser usadas para adicionar uma transição de tempo em uma mod
 	.elemento {
 		transition: <property> <duration>;
 	}
+
+![Transitions](images/01.gif)
+##More transitions
+![More transitions](images/02.gif)
+##Transform scale
+![Transform scale](images/03.gif)
+##Transform rotate
+![Transform rotate](images/04.gif)
+##Transform translate
+![Transform translate](images/05.gif)
+##Keyframes Animation
+![keyframes-animations](images/06.gif)
 
 
