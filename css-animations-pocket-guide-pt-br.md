@@ -8,9 +8,11 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
 * [Transitions](#transitions)
 	* [More transitions](#more-transitions)
 * [Transforms](#transforms)
-	* [Transform scale](#transform-scale)
-	* [Transform rotate](#transform-rotate)
-	* [Transform translate](#transform-translate)
+	* [Transform 2D](#transform-scale)
+		* [Transform scale](#transform-scale)
+		* [Transform rotate](#transform-rotate)
+		* [Transform translate](#transform-translate)
+		* [Transform skew](#transform-skew)
 * [Keyframes Animations](#keyframes-animations)
 * [SVG Animations](#svg-animations)
 
@@ -86,10 +88,53 @@ Podemos adicionar transformações ao elementos, fazendo-os crescerem, girarem, 
 ![Transform scale](images/03.gif)
 
 ###Transform rotate
+
+	.elemento {
+  		/* Adicionando transições */
+  		transition: all 1s;
+	}
+	/* Adicionando modificações */
+	.elemento:hover {
+ 		background-color: green;
+  		height: 70px;
+  		width: 70px;
+  		transform: rotate(360deg);
+	}
 ![Transform rotate](images/04.gif)
+
 ###Transform translate
+
+	.elemento {
+  		/* Adicionando transições */
+ 		 transition: all 1s;
+	}
+	/* Adicionando modificações */
+	.elemento:hover {
+  		background-color: green;
+  		transform: translateY(30px);
+	}
 ![Transform translate](images/05.gif)
+
 ##Keyframes Animations
+
+	.elemento {
+		/* Adicionando o keyframe criado à animação */
+		animation: animacao 1s infinite;
+		}
+	/* Criando o keyframe */
+	@keyframes animacao {
+		0% {
+			transform: scale(0.9);
+			opacity: 0;
+		}
+		50% {
+			transform: scale(1.1);
+			opacity: 1;
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
 ![keyframes-animations](images/06.gif)
 
 
