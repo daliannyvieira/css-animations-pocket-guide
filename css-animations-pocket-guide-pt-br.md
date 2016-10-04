@@ -69,6 +69,8 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 ![More transitions](images/02.gif)
 
 ##Transforms
+
+Transform serve como o próprio nome sugere, para adicionar transformações aos elementos. Há três transformações que podem ser usadas: scale, rotate, e translate.
 ###Transform scale
 ![Transform scale](images/03.gif)
 ###Transform rotate
