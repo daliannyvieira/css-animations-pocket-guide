@@ -36,7 +36,7 @@ Queremos modificar a cor de um elemento quando o usuário posicionar o cursor so
 		  background-color: tomato;
 	}
 	
-Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma transition, com a propriedade modificada e a duração que queremos, 1 segundo, por exemplo:
+Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma transição, com a propriedade modificada e a duração que queremos, 1 segundo, por exemplo:
 
 	.elemento {
 		 /* Adicionando transição */
@@ -46,7 +46,7 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 
 ###More transitions
 
-É possível adicionar também mais propriedades em uma mesma transição, e dar a elas não necessariamente o mesmo tempo de duração, exemplo:
+É possível adicionar também mais propriedades em uma mesma transição separando-as por vírgulas, e dar a elas não necessariamente o mesmo tempo de duração, exemplo:
 
 	.elemento:hover {
 		 /* Adicionando mais modificações */
@@ -58,7 +58,11 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 	
 	.elemento {
 		/* Adicionando mais transições */
-  		transition: background-color 1s, height 1s, width 1s, opacity 1s;
+  		transition:
+			background-color 1s,
+			height 1s,
+			width 1s,
+			opacity 1s;
 	}
 
 
