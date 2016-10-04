@@ -6,7 +6,11 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
 * [Introdução](#introdução)
 	* [Recomendações](#recomendações)
 * [Transitions](#transitions)
+	* [More transitions](#more-transitions)
 * [Transforms](#transforms)
+	* [Transform scale](#transform-scale)
+	* [Transform rotate](#transform-rotate)
+	* [Transform translate](#transform-translate)
 * [Keyframes Animations](#keyframes-animations)
 * [SVG Animations](#svg-animations)
 
