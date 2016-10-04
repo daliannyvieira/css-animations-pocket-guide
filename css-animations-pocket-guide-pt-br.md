@@ -6,7 +6,7 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
 * [Introdução](#introdução)
 	* [Recomendações](#recomendações)
 * [Transitions](#transitions)
-	* [Mais transitions](#mais-transitions)
+	* [More transitions](#more-transitions)
 * [Transforms](#transforms)
 	* [Transform scale](#transform-scale)
 	* [Transform rotate](#transform-rotate)
@@ -46,7 +46,7 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 
 ###More transitions
 
-É possível adicionar também mais propriedades em uma mesma transição separando-as por vírgulas, e dar a elas não necessariamente o mesmo tempo de duração, exemplo:
+É possível adicionar também mais propriedades em uma mesma transição separando-as por vírgulas, e dar a elas o mesmo tempo de duração, ou não, exemplo:
 
 	.elemento:hover {
 		 /* Adicionando mais modificações */
@@ -70,9 +70,21 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 
 ##Transforms
 
-Transform serve como o próprio nome sugere, para adicionar transformações aos elementos. Há três transformações que podem ser usadas: scale, rotate, e translate.
+Podemos adicionar transformações ao elementos, fazendo-os crescerem, girarem, ou se deslocarem, em 2D e também 3D. Transformações que podem ser usadas: scale, rotate, translate, e skew.
 ###Transform scale
+
+	/* Adicionando modificações */
+	.elemento:hover {
+		background-color: green;
+		transform: scale(1.5);
+	}
+
+	.elemento {
+		/* Adicionando transição */
+		transition: all 1s;
+	}
 ![Transform scale](images/03.gif)
+
 ###Transform rotate
 ![Transform rotate](images/04.gif)
 ###Transform translate
