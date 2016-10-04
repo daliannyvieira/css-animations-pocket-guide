@@ -6,7 +6,7 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
 * [Introdução](#introdução)
 	* [Recomendações](#recomendações)
 * [Transitions](#transitions)
-	* [More transitions](#more-transitions)
+	* [Mais transitions](#mais-transitions)
 * [Transforms](#transforms)
 	* [Transform scale](#transform-scale)
 	* [Transform rotate](#transform-rotate)
@@ -22,15 +22,48 @@ Para aproveitar melhor esse guia, é recomendado que se tenha um conhecimento pr
 
 ##Transitions
 
-Transições podem ser usadas para adicionar uma transição de tempo em uma modificação por um determinado elemento. Adicionamos ao elemento a seguinte propriedade:
+Podemos adicionar uma transição de tempo em uma modificação por um determinado elemento. Adicionamos ao elemento a seguinte propriedade:
 
 	.elemento {
 		transition: <property> <duration>;
 	}
+	
+Um exemplo prático:
+Queremos modificar a cor de um elemento quando o usuário posicionar o cursor sobre ele.
 
-![Transitions](images/01.gif)
+	/* Adicionando uma modificação */
+	.elemento:hover {
+		  background-color: tomato;
+	}
+	
+Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma transition, com a propriedade modificada e a duração que queremos, 1 segundo, por exemplo:
+
+	.elemento {
+		 /* Adicionando transição */
+ 		 transition: background-color 1s;
+	}
+![transitions example](images/01.gif)
+
 ###More transitions
+
+É possível adicionar também mais propriedades em uma mesma transição, e dar a elas não necessariamente o mesmo tempo de duração, exemplo:
+
+	.elemento:hover {
+		 /* Adicionando mais modificações */
+ 		background-color: green;
+  		height: 70px;
+  		width: 70px;
+  		opacity: 0;
+	}
+	
+	.elemento {
+		/* Adicionando mais transições */
+  		transition: background-color 1s, height 1s, width 1s, opacity 1s;
+	}
+
+
 ![More transitions](images/02.gif)
+
 ##Transforms
 ###Transform scale
 ![Transform scale](images/03.gif)
