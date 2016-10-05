@@ -8,12 +8,12 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
 * [Transitions](#transitions)
 	* [More transitions](#more-transitions)
 * [Transforms](#transforms)
-	* [Transform 2D](#transform-scale)
+	* [Transforms 2D](#transform-2d)
 		* [Transform scale](#transform-scale)
 		* [Transform rotate](#transform-rotate)
 		* [Transform translate](#transform-translate)
 		* [Transform skew](#transform-skew)
-	* [Transform 3D](#transform-rotate-x)
+	* [Transforms 3D](#transform-3d)
 		* [Transform rotateX](#rotate-x)
 		* [Transform rotateY](#rotate-y)
 		* [Transform rotateZ](#rotate-z)
@@ -76,7 +76,7 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 
 ![More transitions](images/02.gif)
 
-##Transforms
+##Transforms 2D
 
 Podemos adicionar transformações ao elementos, fazendo-os crescerem, girarem, ou se deslocarem, em 2D e também 3D. Transformações que podem ser usadas: scale, rotate, translate, e skew.
 
@@ -130,6 +130,8 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
   		transform: translateY(30px);
 	}
 ![Transform translate](images/05.gif)
+
+##Transforms 3D
 
 ##Animations
 ###Construindo
