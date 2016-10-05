@@ -100,29 +100,26 @@ Se adicionadas como hover, por exemplo, pode ser interessante também continuar 
 
 ###Transform rotate
 
-Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos fazer com que ele gire usando deg ou turn como valor, 1turn equivale a 360graus.
+Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos fazer com que ele gire usando deg ou turn como valor, 1turn equivale a 360 graus.
 
+	/* Adicionando transições */
 	.elemento {
-  		/* Adicionando transições */
   		transition: all 1s;
 	}
 	
 	/* Adicionando modificações */
 	.elemento:hover {
-		/* Alterando a cor */
  		background-color: green;
-		/* Diminuindo a altura e largura */
   		height: 70px;
   		width: 70px;
-		/* Girando uma volta completa */
   		transform: rotate(360deg);
 	}
 ![Transform rotate](images/04.gif)
 
 ###Transform translate
 
+	/* Adicionando transições */
 	.elemento {
-  		/* Adicionando transições */
  		 transition: all 1s;
 	}
 	
@@ -138,7 +135,7 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 ##Animations
 ###Construindo
 
-Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo uso de [Keyframes](#keyframes).
+Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo uso de um ou mais [Keyframes](#keyframes):
 
 	/* Criando o keyframe */
 	@keyframes animacao {
@@ -155,10 +152,10 @@ Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo u
 		}
 	}
 	
-Depois a adicionamos ao elemento.
+Depois a adicionamos ao elemento:
 
+	/* Adicionando o keyframe criado à animação */
 	.elemento {
-		/* Adicionando o keyframe criado à animação */
 		animation: animacao 1s infinite;
 	}
 ![keyframes-animations](images/06.gif)
