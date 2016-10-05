@@ -46,8 +46,8 @@ Queremos modificar a cor de um elemento quando o usuário posicionar o cursor so
 	
 Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma transição, com a propriedade modificada e a duração que queremos, 1 segundo, por exemplo:
 
+	/* Adicionando transição */
 	.elemento {
-		 /* Adicionando transição */
  		 transition: background-color 1s;
 	}
 ![transitions example](images/01.gif)
@@ -56,16 +56,16 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 
 É possível adicionar também mais propriedades em uma mesma transição separando-as por vírgulas, e dar a elas o mesmo tempo de duração, ou não, exemplo:
 
+	/* Adicionando mais modificações */
 	.elemento:hover {
-		 /* Adicionando mais modificações */
  		background-color: green;
   		height: 70px;
   		width: 70px;
   		opacity: 0;
 	}
 	
+	/* Adicionando mais transições */
 	.elemento {
-		/* Adicionando mais transições */
   		transition:
 			background-color 1s,
 			height 1s,
@@ -91,9 +91,9 @@ Se adicionadas como hover, por exemplo, pode ser interessante também continuar 
 		background-color: green;
 		transform: scale(1.5);
 	}
-
+	
+	/* Adicionando transição */
 	.elemento {
-		/* Adicionando transição */
 		transition: all 1s;
 	}
 ![Transform scale](images/03.gif)
@@ -106,6 +106,7 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
   		/* Adicionando transições */
   		transition: all 1s;
 	}
+	
 	/* Adicionando modificações */
 	.elemento:hover {
 		/* Alterando a cor */
@@ -124,6 +125,7 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
   		/* Adicionando transições */
  		 transition: all 1s;
 	}
+	
 	/* Adicionando modificações */
 	.elemento:hover {
   		background-color: green;
