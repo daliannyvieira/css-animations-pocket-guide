@@ -141,7 +141,7 @@ Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo u
 	.elemento {
 		/* Adicionando o keyframe criado à animação */
 		animation: animacao 1s infinite;
-		}
+	}
 	/* Criando o keyframe */
 	@keyframes animacao {
 		0% {
