@@ -136,12 +136,8 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 ##Animations
 ###Construindo
 
-Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo uso de [Keyframes](#keyframes) depois a adicionamos.
+Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo uso de [Keyframes](#keyframes).
 
-	.elemento {
-		/* Adicionando o keyframe criado à animação */
-		animation: animacao 1s infinite;
-	}
 	/* Criando o keyframe */
 	@keyframes animacao {
 		0% {
@@ -155,5 +151,12 @@ Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo u
 		100% {
 			transform: scale(1);
 		}
+	}
+	
+Depois a adicionamos ao elemento.
+
+	.elemento {
+		/* Adicionando o keyframe criado à animação */
+		animation: animacao 1s infinite;
 	}
 ![keyframes-animations](images/06.gif)
