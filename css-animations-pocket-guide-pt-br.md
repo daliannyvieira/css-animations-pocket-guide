@@ -56,14 +56,6 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 
 É possível adicionar também mais propriedades em uma mesma transição separando-as por vírgulas, e dar a elas o mesmo tempo de duração, ou não, exemplo:
 
-	/* Adicionando mais modificações */
-	.elemento:hover {
- 		background-color: green;
-  		height: 70px;
-  		width: 70px;
-  		opacity: 0;
-	}
-	
 	/* Adicionando mais transições */
 	.elemento {
   		transition:
@@ -72,7 +64,14 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 			width 1s,
 			opacity 1s;
 	}
-
+	
+	/* Adicionando mais modificações */
+	.elemento:hover {
+ 		background-color: green;
+  		height: 70px;
+  		width: 70px;
+  		opacity: 0;
+	}
 
 ![More transitions](images/02.gif)
 
@@ -86,16 +85,17 @@ Scale pode fazer com que um elemento cresça ou diminua sua dimensão. Exemplo: 
 
 Se adicionadas como hover, por exemplo, pode ser interessante também continuar combinando transformações com transições, fazendo com que as trasnformações sejam mais agradáveis de se ver. Podemos usar all para manter a mesma duração por segundos em uma transição. Exemplo:
 
+	/* Adicionando transição */
+	.elemento {
+		transition: all 1s;
+	}
+	
 	/* Adicionando modificações */
 	.elemento:hover {
 		background-color: green;
 		transform: scale(1.5);
 	}
 	
-	/* Adicionando transição */
-	.elemento {
-		transition: all 1s;
-	}
 ![Transform scale](images/03.gif)
 
 ###Transform rotate
