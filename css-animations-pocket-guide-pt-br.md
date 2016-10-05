@@ -14,12 +14,13 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
 		* [Transform translate](#transform-translate)
 		* [Transform skew](#transform-skew)
 	* [Transforms 3D](#transforms-3d)
-		* [Transform rotateX](#rotate-x)
-		* [Transform rotateY](#rotate-y)
-		* [Transform rotateZ](#rotate-z)
+		* [Transform rotateX](#transform-rotatex)
+		* [Transform rotateY](#transform-rotatey)
+		* [Transform rotateZ](#transform-rotatez)
 * [Animations](#animations)
 	* [Construindo](#construindo)
-	* [Keyframes](#keyframes)
+	* [Keyframe](#keyframe)
+	* [Animation](#animation)
 * [SVG Animations](#svg-animations)
 
 ## Introdução
@@ -75,11 +76,13 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 
 ![More transitions](images/02.gif)
 
-##Transforms 2D
+##Transforms
+
+###Transforms 2D
 
 Podemos adicionar transformações ao elementos, fazendo-os crescerem, girarem, ou se deslocarem, em 2D e também 3D. Transformações que podem ser usadas: scale, rotate, translate, e skew.
 
-###Transform scale
+####Transform scale
 
 Scale pode fazer com que um elemento cresça ou diminua sua dimensão. Exemplo: para fazer com que um elemento cresça em uma proporção equivalente à metade de seu tamanho usamos scale(1.5); Se quisessemos que ele crescesse o dobro do seu tamanho adicionaríamos scale(2); e assim por diante.
 
@@ -98,7 +101,7 @@ Se adicionadas como hover, por exemplo, pode ser interessante também continuar 
 	
 ![Transform scale](images/03.gif)
 
-###Transform rotate
+####Transform rotate
 
 Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos fazer com que ele gire usando deg ou turn como valor, 1turn equivale a 360 graus.
 
@@ -116,7 +119,7 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 	}
 ![Transform rotate](images/04.gif)
 
-###Transform translate
+####Transform translate
 
 	/* Adicionando transições */
 	.elemento {
@@ -130,9 +133,19 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 	}
 ![Transform translate](images/05.gif)
 
-##Transforms 3D
+####Transform skew
+![Transform skew](images/07.gif)
 
+###Transforms 3D
+
+####Transform rotateX
+![Transform rotateX](images/09.gif)
+####Transform rotateY
+![Transform rotateY](images/10.gif)
+####Transform rotateZ
+![Transform rotateZ](images/11.gif)
 ##Animations
+
 ###Construindo
 
 Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo uso de um ou mais [Keyframes](#keyframes):
@@ -159,3 +172,7 @@ Depois a adicionamos ao elemento:
 		animation: animacao 1s infinite;
 	}
 ![keyframes-animations](images/06.gif)
+
+###Keyframe
+
+###Animation
