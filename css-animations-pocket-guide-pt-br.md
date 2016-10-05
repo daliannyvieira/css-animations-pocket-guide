@@ -13,7 +13,13 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
 		* [Transform rotate](#transform-rotate)
 		* [Transform translate](#transform-translate)
 		* [Transform skew](#transform-skew)
-* [Keyframes Animations](#keyframes-animations)
+	* [Transform 3D](#transform-rotate-x)
+		* [Transform rotateX](#rotate-x)
+		* [Transform rotateY](#rotate-y)
+		* [Transform rotateZ](#rotate-z)
+* [Animations](#animations)
+	* [Construindo](#construindo)
+	* [Keyframes](#keyframes)
 * [SVG Animations](#svg-animations)
 
 ## Introdução
@@ -125,7 +131,10 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 	}
 ![Transform translate](images/05.gif)
 
-##Keyframes Animations
+##Animations
+###Construindo
+
+Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo uso de [Keyframes](#keyframes) depois a adicionamos.
 
 	.elemento {
 		/* Adicionando o keyframe criado à animação */
@@ -146,5 +155,3 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 		}
 	}
 ![keyframes-animations](images/06.gif)
-
-
