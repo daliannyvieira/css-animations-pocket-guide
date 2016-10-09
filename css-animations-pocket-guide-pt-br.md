@@ -148,9 +148,9 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 
 ###Construindo
 
-Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo uso de um ou mais [Keyframes](#keyframes):
+Criar uma animação é criar uma lista do que deve acontecer com as propriedades de um elemento em um determinado período de tempo. Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo uso de um ou mais [Keyframes](#keyframe):
 
-	/* Criando o keyframe */
+	/* Criando um keyframe */
 	@keyframes animacao {
 		0% {
 			transform: scale(0.9);
@@ -174,5 +174,7 @@ Depois a adicionamos ao elemento:
 ![keyframes-animations](images/06.gif)
 
 ###Keyframe
+
+Um keyframe deve dizer onde, quando, e como deve ocorrer uma modificação nas propriedades.
 
 ###Animation
