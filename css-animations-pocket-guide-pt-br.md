@@ -175,6 +175,6 @@ Depois a adicionamos ao elemento:
 
 ###Keyframe
 
-Um keyframe deve dizer onde, quando, e como deve ocorrer uma modificação nas propriedades.
+Um keyframe deve dizer onde, quando, e como devem ocorrer modificações nas propriedades.
 
 ###Animation
