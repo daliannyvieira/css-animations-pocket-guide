@@ -19,8 +19,8 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
 		* [Transform rotateZ](#transform-rotatez)
 * [Animations](#animations)
 	* [Construindo](#construindo)
-	* [Keyframe](#keyframe)
-	* [Animation](#animation)
+		* [Keyframe](#keyframe)
+		* [Animation](#animation)
 
 ## Introdução
 
