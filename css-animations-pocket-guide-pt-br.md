@@ -21,7 +21,6 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
 	* [Construindo](#construindo)
 	* [Keyframe](#keyframe)
 	* [Animation](#animation)
-* [SVG Animations](#svg-animations)
 
 ## Introdução
 
@@ -134,15 +133,57 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 ![Transform translate](images/05.gif)
 
 ####Transform skew
+
+	/* Adicionando mais transições */
+	.elemento {
+ 		transition: all 1s;
+	}
+	
+	/* Adicionando mais modificações */
+	.elemento:hover {
+	  background-color: green;
+	  transform: skew(0deg, 20deg);
+	}
 ![Transform skew](images/07.gif)
 
 ###Transforms 3D
 
 ####Transform rotateX
+
+	/* Adicionando mais transições */
+	.elemento {
+ 		transition: all 1s;
+	}
+	
+	/* Adicionando mais modificações */
+	.elemento:hover {
+  		background-color: green;
+  		transform: rotateX(90deg);
+	}
 ![Transform rotateX](images/09.gif)
 ####Transform rotateY
+
+	/* Adicionando mais transições */
+	.elemento {
+	  transition: all 1s;
+	}
+	/* Adicionando mais modificações */
+	.elemento:hover {
+	  background-color: green;
+	  transform: rotateY(180deg);
+	}
 ![Transform rotateY](images/10.gif)
 ####Transform rotateZ
+
+  	/* Adicionando mais transições */
+	.elemento {
+	  transition: all 1s;
+	}
+	/* Adicionando mais modificações */
+	.elemento:hover {
+	  background-color: green;
+	  transform: rotateZ(90deg);
+	}
 ![Transform rotateZ](images/11.gif)
 ##Animations
 
