@@ -134,6 +134,8 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 
 ####Transform skew
 
+Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
+
 	/* Adicionando mais transições */
 	.elemento {
  		transition: all 1s;
