@@ -120,6 +120,8 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 
 ####Transform translate
 
+Translate desloca o elemento no eixo X ou Y a partir de sua posição original. O valor do deslocamento pode ser dado em qualquer uma das unidades de comprimento do css.
+
 	/* Adicionando transições */
 	.elemento {
  		 transition: all 1s;
