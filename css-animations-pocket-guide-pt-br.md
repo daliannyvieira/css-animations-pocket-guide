@@ -136,6 +136,8 @@ Translate desloca o elemento no eixo X ou Y a partir de sua posição original. 
 
 ####Transform skew
 
+Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
+
 	/* Adicionando mais transições */
 	.elemento {
  		transition: all 1s;
