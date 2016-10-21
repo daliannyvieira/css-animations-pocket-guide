@@ -1,6 +1,12 @@
 ![cover](images/cover01.png)
 
-Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.
+# CSS Animations Pocket Guide
+
+Um guia de bolso para quem estuda ou trabalha com animações com CSS!
+
+Leia o conteúdo do Guia [aqui](./css-animations-pocket-guide-pt-br.md).
+
+*Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.*
 
 #Contribuindo
 
