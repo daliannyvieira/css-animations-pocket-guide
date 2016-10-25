@@ -1,8 +1,8 @@
-![cover](images/cover01.png)
+![cover](../images/cover01.png)
 
 All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide are available on Codepen.
 
-## Mapa
+## Map
 
 * [Introduction](#introduction)
     * [Recommendations](#recommendations)
@@ -52,7 +52,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 }
 ```
 
-![transitions example](images/01.gif)
+![transitions example](../images/01.gif)
 
 ###More transitions
 
@@ -75,7 +75,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 }
 ```
 
-![More transitions](images/02.gif)
+![More transitions](../images/02.gif)
 
 ##Transforms
 
@@ -96,7 +96,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 }
 ```
     
-![Transform scale](images/03.gif)
+![Transform scale](../images/03.gif)
 
 ####Transform rotate
 
@@ -115,7 +115,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 }
 ```
 
-![Transform rotate](images/04.gif)
+![Transform rotate](../images/04.gif)
 
 ####Transform translate
 
@@ -132,7 +132,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 }
 ```
 
-![Transform translate](images/05.gif)
+![Transform translate](../images/05.gif)
 
 ####Transform skew
 
@@ -150,7 +150,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 }
 ```
 
-![Transform skew](images/07.gif)
+![Transform skew](../images/07.gif)
 
 ###Transforms 3D
 
@@ -169,7 +169,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 }
 ```
 
-![Transform rotateX](images/09.gif)
+![Transform rotateX](../images/09.gif)
 ####Transform rotateY
 
 ```css
@@ -185,7 +185,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 }
 ```
 
-![Transform rotateY](images/10.gif)
+![Transform rotateY](../images/10.gif)
 ####Transform rotateZ
 
 ```css
@@ -201,7 +201,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 }
 ```
 
-![Transform rotateZ](images/11.gif)
+![Transform rotateZ](../images/11.gif)
 ##Animations
 
 ###Building
@@ -231,7 +231,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 }
 ```
 
-![keyframes-animations](images/06.gif)
+![keyframes-animations](../images/06.gif)
 
 ###Keyframe
 
