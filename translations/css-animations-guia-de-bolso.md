@@ -1,4 +1,4 @@
-![cover](images/cover01.png)
+![cover](../images/cover01.png)
 
 Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.
 ## Mapa
@@ -58,7 +58,7 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 }
 ```
 
-![transitions example](images/01.gif)
+![transitions example](../images/01.gif)
 
 ###More transitions
 
@@ -83,7 +83,7 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 }
 ```
 
-![More transitions](images/02.gif)
+![More transitions](../images/02.gif)
 
 ##Transforms
 
@@ -110,7 +110,7 @@ Se adicionadas como hover, por exemplo, pode ser interessante também continuar 
 }
 ```
     
-![Transform scale](images/03.gif)
+![Transform scale](../images/03.gif)
 
 ####Transform rotate
 
@@ -131,7 +131,7 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos
 }
 ```
 
-![Transform rotate](images/04.gif)
+![Transform rotate](../images/04.gif)
 
 ####Transform translate
 
@@ -150,7 +150,7 @@ Translate desloca o elemento no eixo X ou Y a partir de sua posição original. 
 }
 ```
 
-![Transform translate](images/05.gif)
+![Transform translate](../images/05.gif)
 
 ####Transform skew
 
@@ -169,7 +169,7 @@ Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
 }
 ```
 
-![Transform skew](images/07.gif)
+![Transform skew](../images/07.gif)
 
 ###Transforms 3D
 
@@ -188,7 +188,7 @@ Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
 }
 ```
 
-![Transform rotateX](images/09.gif)
+![Transform rotateX](../images/09.gif)
 ####Transform rotateY
 
 ```css
@@ -204,7 +204,7 @@ Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
 }
 ```
 
-![Transform rotateY](images/10.gif)
+![Transform rotateY](../images/10.gif)
 ####Transform rotateZ
 
 ```css
@@ -220,7 +220,7 @@ Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
 }
 ```
 
-![Transform rotateZ](images/11.gif)
+![Transform rotateZ](../images/11.gif)
 ##Animations
 
 ###Construindo
@@ -253,7 +253,7 @@ Depois a adicionamos ao elemento:
 }
 ```
 
-![keyframes-animations](images/06.gif)
+![keyframes-animations](../images/06.gif)
 
 ###Keyframe
 
