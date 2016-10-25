@@ -6,6 +6,8 @@ Um guia de bolso para quem estuda ou trabalha com animações com CSS!
 
 Leia o conteúdo do Guia [aqui](./translations/css-animations-guia-de-bolso.md).
 
+An [English version](./translations/css-animations-pocket-guide.md) is coming.
+
 *Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.*
 
 ## Contribuindo
