@@ -23,7 +23,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
         * [Keyframe](#keyframe)
         * [Animation](#animation)
 * [UI Examples](#ui-examples)
-        
+
 ## Introduction
 
 ### Recommendations
@@ -35,7 +35,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
     transition: <property> <duration>;
 }
 ```
- 
+
 A practical example:
 We want to change the color of an element when you position the cursor over it.
 
@@ -85,7 +85,13 @@ It's also possible to add more properties in a same transition separating them, 
 
 ###Transforms 2D
 
+We can add transformations to elements, scaling, rotating or moving them, in 2D and 3D. Existing transformations are: scale, rotate, translate and skew.
+
 ####Transform scale
+
+Scale makes an element grow or shrink in dimension. Example: to make an element grow up in a proportion equivalent to half its size, we use scale(1.5); Were we wanting to make it double its size instead, we would use scale(2); and so it goes.
+
+If we are dealing with hover scaling, for example, it may be interesting to continue combining transformations and transitions, making it way more enjoyable to see. We may use all to maintain the same duration per second in a transition. Example:
 
 ```css
 /* Adding transition */
@@ -99,10 +105,12 @@ It's also possible to add more properties in a same transition separating them, 
     transform: scale(1.5);
 }
 ```
-    
+
 ![Transform scale](../images/03.gif)
 
 ####Transform rotate
+
+Rotate, as its name may suggest, is able to make an element spin. We can make it rotate using deg or turn as value, 1turn being equivalent to 360 degrees.
 
 ```css
 /* Adding transition */
@@ -123,6 +131,8 @@ It's also possible to add more properties in a same transition separating them, 
 
 ####Transform translate
 
+Translate moves the element in the X or Y axes from its original position. The offset value may be given in any of the CSS length units.
+
 ```css
 /* Adding transition */
 .element {
@@ -140,6 +150,7 @@ It's also possible to add more properties in a same transition separating them, 
 
 ####Transform skew
 
+Skew is able to tilt and twist an element along the X and Y axes.
 
 ```css
 /* Adding more transition */
@@ -226,7 +237,7 @@ It's also possible to add more properties in a same transition separating them, 
     }
 }
 ```
-    
+
 
 ```css
 /* Adding an animation */
