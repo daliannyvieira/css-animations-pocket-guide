@@ -45,7 +45,7 @@ We want to change the color of an element when you position the cursor over it.
       background-color: tomato;
 }
 ```
-
+But we want this change to happen smoothly. Then add a transition, with the modified property and the duration you want 1 second, for example:
 
 ```css
 /* Adding transition */
