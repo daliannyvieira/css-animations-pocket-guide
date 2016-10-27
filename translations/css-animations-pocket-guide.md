@@ -35,7 +35,9 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
     transition: <property> <duration>;
 }
 ```
-    
+ 
+A practical example:
+We want to change the color of an element when you position the cursor over it.
 
 ```css
 /* Adding a modification */
