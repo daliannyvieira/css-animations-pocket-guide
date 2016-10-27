@@ -58,6 +58,8 @@ But we want this change to happen smoothly. Then add a transition, with the modi
 
 ###More transitions
 
+It's also possible to add more properties in a same transition separating them, and giving the same duration or not, for example:
+
 ```css
 /* Adding transitions */
 .element {
