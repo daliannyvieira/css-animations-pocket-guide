@@ -30,6 +30,8 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 
 ## Transitions
 
+We can add a time transition in a modification for a given element. We add to the element the following property:
+
 ```css
 .element {
     transition: <property> <duration>;
@@ -45,7 +47,8 @@ We want to change the color of an element when you position the cursor over it.
       background-color: tomato;
 }
 ```
-But we want this change to happen smoothly. Then add a transition, with the modified property and the duration you want 1 second, for example:
+
+But we want this change to happen smoothly. Then add a transition, with the modified property and the duration you want, 1 second, for example:
 
 ```css
 /* Adding transition */
@@ -58,7 +61,7 @@ But we want this change to happen smoothly. Then add a transition, with the modi
 
 ###More transitions
 
-It's also possible to add more properties in a same transition separating them, and giving the same duration or not, for example:
+It's also possible to add more properties in one transition separating them by commas, giving them the same duration or not, for example:
 
 ```css
 /* Adding transitions */
