@@ -21,9 +21,9 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
     * [Construindo](#construindo)
         * [Keyframe](#keyframe)
         * [Animation](#animation)
-* [Princípios básicos da Animação](#princípios-basicos-da-animacao)
+* [Princípios básicos da Animação](#princípios-basicos-da-animação)
 * [Exemplos em UI](#exemplos-em-ui)
-* [Referências](#referencias)
+* [Referências](#referências)
         
 ## Introdução
 
