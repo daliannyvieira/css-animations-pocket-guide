@@ -21,13 +21,17 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
     * [Construindo](#construindo)
         * [Keyframe](#keyframe)
         * [Animation](#animation)
+* [Princípios básicos da Animação](#princípios-basicos-da-animacao)
 * [Exemplos em UI](#exemplos-em-ui)
+* [Referências](#referencias)
         
 ## Introdução
 
 ###Recomendações
 
 Para aproveitar melhor esse guia, é recomendado que se tenha um conhecimento prévio sobre HTML e CSS básico.
+
+Não tenha pressa em aprender uma sub-propriedade ou conceito por vez, aos poucos você compreenderá como criar combinações mais complexas e estará apto a criar maravilhosas animações, até lá por favor não pule etapas. 
 
 ##Transitions
 
@@ -261,4 +265,8 @@ Um keyframe deve dizer onde, quando, e como devem ocorrer modificações nas pro
 
 ###Animation
 
-###Exemplos em UI
+##Princípios básicos da Animação
+
+##Exemplos em UI
+
+##Referências
