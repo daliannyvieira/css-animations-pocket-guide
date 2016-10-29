@@ -28,6 +28,8 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 
 ### Recommendations
 
+To best take advantage of this guide, it is recommended to have a previous knowledge of HTML and basic CSS.
+
 ## Transitions
 
 We can add a time transition in a modification for a given element. We add to the element the following property:
