@@ -257,6 +257,8 @@ Then adding the element:
 
 ###Keyframe
 
+A keyframe should say where, when, and how they should be changes in properties.
+
 ###Animation
 
 ###UI Examples
