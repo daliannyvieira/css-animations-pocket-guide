@@ -226,6 +226,8 @@ Skew is able to tilt and twist an element along the X and Y axes.
 
 ###Building
 
+Create an animation is to create a list of what should happen to the properties of an element in a given period of time. There are two steps that must be followed, first create the animation, making use of one or more keyframes:
+
 ```css
 /* Creating a keyframe */
 @keyframes animacao {
@@ -242,7 +244,7 @@ Skew is able to tilt and twist an element along the X and Y axes.
     }
 }
 ```
-
+Then adding the element:
 
 ```css
 /* Adding an animation */
