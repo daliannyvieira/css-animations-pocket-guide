@@ -1,0 +1,11 @@
+.elemento {
+  /* Adicionando mais transições */
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/* Adicionando mais modificações */
+.elemento:hover {
+  background-color: green;
+  -webkit-transform: skew(0deg, 20deg);
+          transform: skew(0deg, 20deg);
+}

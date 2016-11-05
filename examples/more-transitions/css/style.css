@@ -1,0 +1,11 @@
+.elemento {
+  /* Adicionando mais transições */
+  transition: background-color 1s, height 1s, width 1s, opacity 1s;
+}
+/* Adicionando mais modificações */
+.elemento:hover {
+  background-color: green;
+  height: 70px;
+  width: 70px;
+  opacity: 0;
+}

@@ -1,0 +1,11 @@
+.elemento {
+  /* Adicionando mais transições */
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/* Adicionando mais modificações */
+.elemento:hover {
+  background-color: green;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}

@@ -1,0 +1,9 @@
+.elemento {
+  /* Adicionando mais transições */
+  transition: all 1s;
+}
+/* Adicionando mais modificações */
+.elemento:hover {
+  background-color: green;
+  transform: scale(1.5);
+}

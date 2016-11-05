@@ -1,0 +1,9 @@
+/* Criando elemento de exemplo */
+.elemento {
+  width: 150px;
+  height: 150px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  background-color: #fff;
+  cursor: pointer;
+}

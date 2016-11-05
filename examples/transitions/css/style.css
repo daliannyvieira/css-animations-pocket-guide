@@ -1,0 +1,8 @@
+.elemento {
+  /* Adicionando transição */
+  transition: background-color 1s;
+}
+/* Adicionando uma modificação */
+.elemento:hover {
+  background-color: tomato;
+}
