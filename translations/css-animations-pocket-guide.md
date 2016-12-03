@@ -1,7 +1,3 @@
-![cover](../images/cover01.png)
-
-All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide are available on Codepen.
-
 ## Map
 
 * [Introduction](#introduction)
@@ -29,6 +25,7 @@ All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide 
 ### Recommendations
 
 To best take advantage of this guide, it is recommended to have a previous knowledge of HTML and basic CSS.
+All the [examples](http://codepen.io/collection/XmZvqo/) included in this guide are available on Codepen.
 
 ## Transitions
 
