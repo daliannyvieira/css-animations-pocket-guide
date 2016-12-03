@@ -1,4 +1,6 @@
-![cover](images/cover01.png)
+<p align="center">
+  <img src="images/cover.png" alt="CSS Animations Pocket Guide" width="350px">
+</p>
 
 # CSS Animations Pocket Guide
 
