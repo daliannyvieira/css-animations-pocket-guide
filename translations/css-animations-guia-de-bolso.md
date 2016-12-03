@@ -1,6 +1,3 @@
-![cover](../images/cover01.png)
-
-Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.
 ## Mapa
 
 * [Introdução](#introdução)
@@ -32,6 +29,8 @@ Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia es
 Para aproveitar melhor esse guia, é recomendado que se tenha um conhecimento prévio sobre HTML e CSS básico.
 
 Não tenha pressa em aprender uma sub-propriedade ou conceito por vez, aos poucos você compreenderá como criar combinações mais complexas e estará apto a criar maravilhosas animações, até lá por favor não pule etapas. 
+
+Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.
 
 ##Transitions
 
