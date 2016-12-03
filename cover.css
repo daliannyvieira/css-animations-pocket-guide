@@ -79,3 +79,13 @@ span {
 span:hover {
   background-color: #f8b899;
 }
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
