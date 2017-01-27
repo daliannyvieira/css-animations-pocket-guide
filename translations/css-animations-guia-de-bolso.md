@@ -28,7 +28,7 @@
 
 Para aproveitar melhor esse guia, é recomendado que se tenha um conhecimento prévio sobre HTML e CSS básico.
 
-Não tenha pressa em aprender uma sub-propriedade ou conceito por vez, aos poucos você compreenderá como criar combinações mais complexas e estará apto a criar maravilhosas animações, até lá por favor não pule etapas. 
+Não tenha pressa em aprender uma propriedade ou conceito por vez, aos poucos você compreenderá como criar combinações mais complexas e estará apto a criar maravilhosas animações, até lá por favor não pule etapas. 
 
 Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.
 
@@ -96,7 +96,7 @@ Podemos adicionar transformações ao elementos, fazer eles crescerem, girarem, 
 
 ####Transform scale
 
-Scale pode fazer com que um elemento cresça ou diminua sua dimensão. Exemplo: para fazer com que um elemento cresça em uma proporção equivalente à metade de seu tamanho usamos scale(1.5); Se quisessemos que ele crescesse o dobro do seu tamanho adicionaríamos scale(2); e assim por diante.
+O valor Scale pode fazer com que um elemento cresça ou diminua sua dimensão. Exemplo: para fazer com que um elemento cresça em uma proporção equivalente à metade de seu tamanho usamos scale(1.5); Se quisessemos que ele crescesse o dobro do seu tamanho adicionaríamos scale(2); e assim por diante.
 
 Se adicionadas como hover, por exemplo, pode ser interessante também continuar combinando transformações com transições, fazendo com que as trasnformações sejam mais agradáveis de se ver. Podemos usar all para manter a mesma duração por segundos em uma transição. Exemplo:
 
@@ -246,8 +246,8 @@ Criar uma animação é criar uma lista do que deve acontecer com as propriedade
     }
 }
 ```
-    
-Depois a adicionamos ao elemento:
+
+Depois adicionamos a animação ao elemento:
 
 ```css
 /* Adicionando o keyframe criado à animação */
