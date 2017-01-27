@@ -92,7 +92,7 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 
 ###Transforms 2D
 
-Podemos adicionar transformações ao elementos, fazendo-os crescerem, girarem, ou se deslocarem, em 2D e também 3D. Transformações que podem ser usadas: scale, rotate, translate, e skew.
+Podemos adicionar transformações ao elementos, fazer eles crescerem, girarem, ou se deslocarem, em 2D e também 3D. Transformações que podem ser usadas: scale, rotate, translate, e skew.
 
 ####Transform scale
 
