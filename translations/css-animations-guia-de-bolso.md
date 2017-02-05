@@ -260,9 +260,11 @@ Depois adicionamos a animação ao elemento:
 
 ###Keyframe
 
-Um keyframe deve dizer onde, quando, e como devem ocorrer modificações nas propriedades.
+Um keyframe deve dizer onde, quando, e como devem ocorrer modificações nas propriedades. Essa é a parte responsável por criar a linha do tempo das modificações em uma animação.
 
 ###Animation
+
+Com o keyframe pronto, agora chamamos ele como valor na propriedade animation em um determinado elemento. Como valores, usamos o nome da animação, duração, função de tempo, atraso, contador da iteração, direção, e mais algumas coisas. Em outras palavras, é aqui que configuramos quando, como e até quando uma animação deve aparecer.
 
 ##Performance
 
@@ -285,3 +287,4 @@ Podemos usar também a propriedade <code>will-change</code> para que o navegador
 ##Referências
 https://developers.google.com/web/fundamentals/design-and-ui/animations/animations-and-performance?hl=pt-br
 http://blogs.adobe.com/webplatform/2014/03/18/css-animations-and-transitions-performance/
+http://www.w3schools.com/css/css3_animations.asp
