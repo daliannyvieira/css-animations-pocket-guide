@@ -230,6 +230,10 @@ Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
 
 Criar uma animação é criar uma lista do que deve acontecer com as propriedades de um elemento em um determinado período de tempo. Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo uso de um ou mais [Keyframes](#keyframe):
 
+###Keyframe
+
+Um keyframe deve dizer onde, quando, e como devem ocorrer modificações nas propriedades. Essa é a parte responsável por criar a linha do tempo das modificações em uma animação.
+
 ```css
 /* Criando um keyframe */
 @keyframes animacao {
@@ -247,7 +251,9 @@ Criar uma animação é criar uma lista do que deve acontecer com as propriedade
 }
 ```
 
-Depois adicionamos a animação ao elemento:
+###Animation
+
+Com o keyframe pronto, agora chamamos ele como valor na propriedade animation em um determinado elemento. Como valores, usamos o nome da animação, duração, função de tempo, atraso, contador da iteração, direção, e mais algumas coisas. Em outras palavras, é aqui que configuramos quando, como e até quando uma animação deve aparecer.
 
 ```css
 /* Adicionando o keyframe criado à animação */
@@ -255,16 +261,7 @@ Depois adicionamos a animação ao elemento:
     animation: animacao 1s infinite;
 }
 ```
-
 ![keyframes-animations](../images/06.gif)
-
-###Keyframe
-
-Um keyframe deve dizer onde, quando, e como devem ocorrer modificações nas propriedades. Essa é a parte responsável por criar a linha do tempo das modificações em uma animação.
-
-###Animation
-
-Com o keyframe pronto, agora chamamos ele como valor na propriedade animation em um determinado elemento. Como valores, usamos o nome da animação, duração, função de tempo, atraso, contador da iteração, direção, e mais algumas coisas. Em outras palavras, é aqui que configuramos quando, como e até quando uma animação deve aparecer.
 
 ##Performance
 
