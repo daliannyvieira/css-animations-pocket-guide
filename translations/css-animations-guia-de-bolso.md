@@ -18,8 +18,7 @@
     * [Construindo](#construindo)
         * [Keyframe](#keyframe)
         * [Animation](#animation)
-* [Princípios básicos da Animação](#princípios-basicos-da-animação)
-* [Exemplos em UI](#exemplos-em-ui)
+* [Performance](#performance)
 * [Referências](#referências)
         
 ## Introdução
@@ -28,7 +27,7 @@
 
 Para aproveitar melhor esse guia, é recomendado que se tenha um conhecimento prévio sobre HTML e CSS básico.
 
-Não tenha pressa em aprender uma propriedade ou conceito por vez, aos poucos você compreenderá como criar combinações mais complexas e estará apto a criar maravilhosas animações, até lá por favor não pule etapas. 
+Não tenha pressa em aprender uma propriedade ou conceito por vez, aos poucos você compreenderá como criar combinações mais complexas e estará apto a criar maravilhosas animações, até lá por favor não pule etapas.
 
 Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.
 
@@ -117,7 +116,7 @@ Se adicionadas como hover, por exemplo, pode ser interessante também continuar 
 
 ####Transform rotate
 
-Rotate como o próprio nome sugere, é capaz de fazer um elemento girar. Podemos fazer com que ele gire usando deg ou turn como valor, 1turn equivale a 360 graus.
+Rotate como o próprio nome sugere, é capaz de fazer um elemento rotacionar. Podemos fazer com que ele gire usando deg ou turn como valor, 1turn equivale a 360 graus.
 
 ```css
 /* Adicionando transições */
@@ -264,8 +263,24 @@ Um keyframe deve dizer onde, quando, e como devem ocorrer modificações nas pro
 
 ###Animation
 
-##Princípios básicos da Animação
+##Performance
 
-##Exemplos em UI
+Há muitas modificações que podemos incluir em transições ou animações, mas algumas delas podem ser mais custosas ou trabalhosas para serem renderizadas pelo navegador, afetando assim o desempenho de uma página. Então sempre que possível essas modificações devem ser evitadas. 
+
+Esse é um assunto complexo de entender, é preciso saber o que acontece [internamente](http://blogs.adobe.com/webplatform/2014/03/18/css-animations-and-transitions-performance/) em um navegador para compreender como otimizar o desempenho dessas modificações. Mas basicamente há algumas recomendações que podemos seguir. 
+
+Uma das recomendações é que se evite criar modificações que afetam a geometria do layout, como a altura ou largura de um elemento, por exemplo, pois é como se estivéssemos obrigando que o layout seja renderizado novamente a cada frame, e isso pode ser muito custoso. Conforme essas alterações custosas sejam renderizadas, os problemas de desempenho podem ser realmente visíveis, e notando isso, a experiência do usuário pode ser negativamente impactada.
+
+Algumas propriedades como transforms ou opacity não alteram o layout composto pelos elementos da página, elas afetam somente o próprio elemento como um todo, e isso acaba por ser mais simples para o navegador, pois ele só precisa se preocupar em gerar o bitmap do próprio elemento e carrega-lo para a GPU, então o navegador pode aproveitar a GPU para desenhar o mesmo bitmap em uma posição, rotação ou escala diferente, compondo assim uma animação visivelmente melhor.
+
+Podemos usar também a propriedade <code>will-change</code> para que o navegador saiba quais propriedades serão mudadas. Essa propriedade pode fazer com que o próprio nevagador faça algumas otimizações necessrias. No entanto, usar demais o will-change, pode fazer com que o navegador gaste recursos, resultando assim em mais perdas em desempenho.
+
+```css
+.box {
+  will-change: opacity;
+}
+```
 
 ##Referências
+https://developers.google.com/web/fundamentals/design-and-ui/animations/animations-and-performance?hl=pt-br
+http://blogs.adobe.com/webplatform/2014/03/18/css-animations-and-transitions-performance/
