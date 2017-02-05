@@ -25,12 +25,15 @@
 
 ###Recomendações
 
-Para aproveitar melhor o contedo desse guia, é recomendado que se tenha um conhecimento prévio sobre HTML e CSS.
-Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.
+Para aproveitar melhor o conteúdo desse guia, é recomendado que se tenha um conhecimento prévio sobre HTML e CSS. Esse guia pretende explicar como o CSS pode ser usado para criar transições, ou animações.
 
-Esse guia pretende explicar como o CSS pode ser usado para criar transições, ou animações. Transições podem acontecer em um período de tempo entre uma modificação e outra disparada por um evento, como o hover do mouse, por exemplo. Já uma animação pode incluir uma linha do tempo, e nela pode conter todo um conjunto de modificações em um determinado período de tempo, e ela pode ser disparada ou não por um evento. Em outras palavras, uma animação pode dizer onde, quando e como modificações podem acontecer.
+Transições podem acontecer em um período de tempo entre uma modificação e outra disparada por um evento, como o hover do mouse, por exemplo.
+
+Já uma animação pode incluir uma linha do tempo, e nela pode conter todo um conjunto de modificações em um determinado período de tempo, e ela pode ser disparada ou não por um evento. Em outras palavras, uma animação pode dizer onde, quando e como modificações podem acontecer.
 
 Não tenha pressa em aprender uma propriedade ou conceito por vez, aos poucos você compreenderá como criar combinações mais complexas e estará apto a criar maravilhosas animações, até lá por favor não pule etapas.
+
+Todos os [exemplos](http://codepen.io/collection/XmZvqo/) inclusos nesse guia estão disponíveis no codepen.
 
 ##Transitions
 
