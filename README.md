@@ -1,6 +1,6 @@
-<a href="https://daliannyvieira.gitbooks.io/css-animations-pocket-guide/content/" align="center">
+<p align="center">
   <img src="images/cover.png" alt="CSS Animations Pocket Guide" width="350px">
-</a>
+</p>
 
 ## CSS Animations Pocket Guide
 
