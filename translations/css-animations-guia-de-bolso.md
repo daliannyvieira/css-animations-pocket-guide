@@ -23,7 +23,7 @@
         
 ## Introdução
 
-###Recomendações
+### Recomendações
 
 Para aproveitar melhor o conteúdo a seguir, é recomendado que se tenha um conhecimento prévio sobre HTML e CSS. Esse guia pretende explicar como o CSS pode ser usado para criar transições, ou animações.
 
@@ -64,7 +64,7 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 
 ![transitions example](../images/01.gif)
 
-###More transitions
+### More transitions
 
 É possível adicionar também mais propriedades em uma mesma transição separando-as por vírgulas, e dar a elas o mesmo tempo de duração, ou não, exemplo:
 
@@ -89,13 +89,13 @@ Mas queremos que essa mudança aconteça de forma suave. Então adicionamos uma 
 
 ![More transitions](../images/02.gif)
 
-##Transforms
+## Transforms
 
-###Transforms 2D
+### Transforms 2D
 
 Podemos adicionar transformações ao elementos, fazer eles crescerem, girarem, ou se deslocarem, em 2D e também 3D. Transformações que podem ser usadas: scale, rotate, translate, e skew.
 
-####Transform scale
+#### Transform scale
 
 O valor Scale pode fazer com que um elemento cresça ou diminua sua dimensão. Exemplo: para fazer com que um elemento cresça em uma proporção equivalente à metade de seu tamanho usamos scale(1.5); Se quisessemos que ele crescesse o dobro do seu tamanho adicionaríamos scale(2); e assim por diante.
 
@@ -116,7 +116,7 @@ Se adicionadas como hover, por exemplo, pode ser interessante também continuar 
     
 ![Transform scale](../images/03.gif)
 
-####Transform rotate
+#### Transform rotate
 
 Rotate como o próprio nome sugere, é capaz de fazer um elemento rotacionar. Podemos fazer com que ele gire usando deg ou turn como valor, 1turn equivale a 360 graus.
 
@@ -137,7 +137,7 @@ Rotate como o próprio nome sugere, é capaz de fazer um elemento rotacionar. Po
 
 ![Transform rotate](../images/04.gif)
 
-####Transform translate
+#### Transform translate
 
 Translate desloca o elemento no eixo X ou Y a partir de sua posição original. O valor do deslocamento pode ser dado em qualquer uma das unidades de comprimento do css.
 
@@ -156,7 +156,7 @@ Translate desloca o elemento no eixo X ou Y a partir de sua posição original. 
 
 ![Transform translate](../images/05.gif)
 
-####Transform skew
+#### Transform skew
 
 Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
 
@@ -175,9 +175,9 @@ Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
 
 ![Transform skew](../images/07.gif)
 
-###Transforms 3D
+### Transforms 3D
 
-####Transform rotateX
+#### Transform rotateX
 
 ```css
 /* Adicionando mais transições */
@@ -193,7 +193,7 @@ Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
 ```
 
 ![Transform rotateX](../images/09.gif)
-####Transform rotateY
+#### Transform rotateY
 
 ```css
 /* Adicionando mais transições */
@@ -209,7 +209,7 @@ Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
 ```
 
 ![Transform rotateY](../images/10.gif)
-####Transform rotateZ
+#### Transform rotateZ
 
 ```css
 /* Adicionando mais transições */
@@ -225,13 +225,13 @@ Skew é capaz de inclinar, ou distorcer, um elemento ao longo dos eixos X e Y.
 ```
 
 ![Transform rotateZ](../images/11.gif)
-##Animations
+## Animations
 
-###Construindo
+### Construindo
 
 Criar uma animação é criar uma lista do que deve acontecer com as propriedades de um elemento em um determinado período de tempo. Há dois passos que devem ser seguidos, primeiro criamos a animação, fazendo uso de um ou mais [Keyframes](#keyframe):
 
-###Keyframe
+### Keyframe
 
 Um keyframe deve dizer onde, quando, e como devem ocorrer modificações nas propriedades. Essa é a parte responsável por criar a linha do tempo das modificações em uma animação.
 
@@ -252,7 +252,7 @@ Um keyframe deve dizer onde, quando, e como devem ocorrer modificações nas pro
 }
 ```
 
-###Animation
+### Animation
 
 Com o keyframe pronto, agora chamamos ele como valor na propriedade animation em um determinado elemento. Como valores, usamos o nome da animação, duração, função de tempo, atraso, contador da iteração, direção, e mais algumas coisas. Em outras palavras, é aqui que configuramos quando, como e até quando uma animação deve aparecer.
 
@@ -264,7 +264,7 @@ Com o keyframe pronto, agora chamamos ele como valor na propriedade animation em
 ```
 ![keyframes-animations](../images/06.gif)
 
-##Performance
+## Performance
 
 Há muitas modificações que podemos incluir em transições ou animações, mas algumas delas podem ser mais custosas ou trabalhosas para serem renderizadas pelo navegador, afetando assim o desempenho de uma página. Então sempre que possível essas modificações devem ser evitadas. 
 
